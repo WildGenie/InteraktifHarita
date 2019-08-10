@@ -5,6 +5,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.IO;
 using System.Windows.Forms;
+using Cyotek.Windows.Forms;
 using Harita.Properties;
 
 namespace Harita
@@ -272,6 +273,43 @@ namespace Harita
       }
 
       g.Restore(originalState);
+    }
+
+    private void ImageBox_Zoomed(object sender, Cyotek.Windows.Forms.ImageBoxZoomEventArgs e)
+    {
+      if ((e.Source & ImageBoxActionSources.User) == ImageBoxActionSources.User)
+      {
+        if ((e.Actions & ImageBoxZoomActions.ActualSize) == ImageBoxZoomActions.ActualSize)
+        {
+          this.VirtualZoom = 0;
+          this.ResetZoomOnUpdate = true;
+        }
+        else if ((e.Actions & ImageBoxZoomActions.ZoomIn) == ImageBoxZoomActions.ZoomIn)
+        {
+          this.VirtualZoom++;
+        }
+        else if ((e.Actions & ImageBoxZoomActions.ZoomOut) == ImageBoxZoomActions.ZoomOut)
+        {
+          this.VirtualZoom--;
+        }
+
+        // TODO: Currently the ZoomChanged and Zoomed events are raised after the zoom level has changed, but before any
+        // actions such as modifying scrollbars occur. This means methods such as GetSourceImageRegion will return the
+        // wrong X and Y values. Until this is fixed, using a timer to trigger the change.
+        // However, if you had lots of map changes to make then using a timer would be a good idea regardless; for example
+        // if the user rapdily zooms through the available levels, they'll have a smoother experience if you only load
+        // the data once they've stopped zooming
+        this.refreshMapTimer.Stop();
+        this.refreshMapTimer.Start();
+      }
+
+    }
+
+    private void RefreshMapTimer_Tick(object sender, EventArgs e)
+    {
+      refreshMapTimer.Stop();
+      this.UpdateMap();
+
     }
   }
 }

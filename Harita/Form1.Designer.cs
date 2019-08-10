@@ -28,18 +28,26 @@
     /// </summary>
     private void InitializeComponent()
     {
+      this.components = new System.ComponentModel.Container();
       this.imageBox = new Cyotek.Windows.Forms.ImageBox();
+      this.refreshMapTimer = new System.Windows.Forms.Timer(this.components);
       this.SuspendLayout();
       // 
       // imageBox
       // 
       this.imageBox.Dock = System.Windows.Forms.DockStyle.Fill;
       this.imageBox.Location = new System.Drawing.Point(0, 0);
-      this.imageBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+      this.imageBox.Margin = new System.Windows.Forms.Padding(4);
       this.imageBox.Name = "imageBox";
       this.imageBox.Size = new System.Drawing.Size(1067, 554);
       this.imageBox.TabIndex = 0;
+      this.imageBox.Zoomed += new System.EventHandler<Cyotek.Windows.Forms.ImageBoxZoomEventArgs>(this.ImageBox_Zoomed);
       this.imageBox.Paint += new System.Windows.Forms.PaintEventHandler(this.ImageBox_Paint);
+      // 
+      // refreshMapTimer
+      // 
+      this.refreshMapTimer.Interval = 5;
+      this.refreshMapTimer.Tick += new System.EventHandler(this.RefreshMapTimer_Tick);
       // 
       // Form1
       // 
@@ -47,7 +55,7 @@
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.ClientSize = new System.Drawing.Size(1067, 554);
       this.Controls.Add(this.imageBox);
-      this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+      this.Margin = new System.Windows.Forms.Padding(4);
       this.Name = "Form1";
       this.Text = "Form1";
       this.ResumeLayout(false);
@@ -57,6 +65,7 @@
         #endregion
 
         private Cyotek.Windows.Forms.ImageBox imageBox;
-    }
+    private System.Windows.Forms.Timer refreshMapTimer;
+  }
 }
 
