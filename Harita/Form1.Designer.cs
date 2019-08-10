@@ -43,6 +43,9 @@
       this.imageBox.TabIndex = 0;
       this.imageBox.Zoomed += new System.EventHandler<Cyotek.Windows.Forms.ImageBoxZoomEventArgs>(this.ImageBox_Zoomed);
       this.imageBox.Paint += new System.Windows.Forms.PaintEventHandler(this.ImageBox_Paint);
+      this.imageBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.İmageBox_MouseDown);
+      this.imageBox.MouseLeave += new System.EventHandler(this.İmageBox_MouseLeave);
+      this.imageBox.MouseMove += new System.Windows.Forms.MouseEventHandler(this.İmageBox_MouseMove);
       // 
       // refreshMapTimer
       // 

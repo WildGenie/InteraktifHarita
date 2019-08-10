@@ -53,19 +53,22 @@ namespace Harita
     public float labelOffsetX = 0;
     public float labelOffsetY = -30;
     public PointF location;
-
     [NonSerialized] public Pen pen;
 
     public float ratio = 10;
     public SizeF sizeString;
 
-    public ImagePoint()
+    public ImagePoint(string isim, string tur)
     {
+      Isim = isim;
+      Tur = tur;
     }
 
-    public ImagePoint(string name, PointF l)
+    public ImagePoint(string name, PointF l, string tur)
     {
       location = l;
+      Isim = name;
+      Tur = tur;
       label = name;
     }
 
@@ -74,6 +77,14 @@ namespace Harita
       pen = p;
       location = l;
     }
+
+    public Point LocationPoint => new Point((int) location.X, (int) location.Y);
+
+    public string Isim { get; set; }
+
+    public string Tur { get; set; }
+
+    public Image Resim { get; set; }
 
     public void DrawToGraphics(Graphics g, PointF center, bool isFringe = false, bool isSelected = false)
     {

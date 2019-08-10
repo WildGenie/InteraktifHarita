@@ -12,6 +12,7 @@ namespace Harita
 {
   public partial class Form1 : Form
   {
+    private Bilgilendirme bilgiForm;
     private List<ImagePoint> landmarks;
     private Bitmap markerImage;
 
@@ -109,11 +110,11 @@ namespace Harita
       }
     }
 
-    private void AddLandmark(string name, Point point)
+    private void AddLandmark(string name, Point point, string type)
     {
       Debug.Print("Added landmark: {0}", point);
 
-      landmarks.Add(new ImagePoint(name, new PointF(point.X, point.Y)));
+      landmarks.Add(new ImagePoint(name, new PointF(point.X, point.Y), type));
     }
 
     protected override void OnLoad(EventArgs e)
@@ -123,9 +124,9 @@ namespace Harita
       markerImage = Resources.MapMarker;
 
       landmarks = new List<ImagePoint>();
-      AddLandmark("Britain", new Point(182, 209));
-      AddLandmark("Trinsic", new Point(234, 342));
-      AddLandmark("Minoc", new Point(309, 62));
+      AddLandmark("Britain", new Point(182, 209), "Şehir");
+      AddLandmark("Trinsic", new Point(234, 342), "Şehir");
+      AddLandmark("Minoc", new Point(309, 62), "Şehir");
 
 
       //this.imagePoints = new List<ImagePoint>();
@@ -203,21 +204,6 @@ namespace Harita
           Path.ChangeExtension(name, ".bmp")));
     }
 
-    private struct MapLayerData
-    {
-      #region Public Properties
-
-      public int LowerZoom { get; set; }
-
-      public string Name { get; set; }
-
-      public int UpperZoom { get; set; }
-
-      public int ZoomLevel { get; set; }
-
-      #endregion
-    }
-
     private void ImageBox_Paint(object sender, PaintEventArgs e)
     {
       Graphics g;
@@ -234,29 +220,27 @@ namespace Harita
       originalState = g.Save();
 
       // Work out the size of the marker graphic according to the current zoom level
-      originalSize = this.markerImage.Size;
-      scaledSize = this.imageBox.GetScaledSize(originalSize);
+      originalSize = markerImage.Size;
+      scaledSize = imageBox.GetScaledSize(originalSize);
       drawSize = scaleAdornmentSize ? scaledSize : originalSize;
 
 
-      foreach (var landmark in this.landmarks)
+      foreach (var landmark in landmarks)
       {
         PointF location;
 
         var yeniLandmark = landmark;
 
-        var findNearestLayer = this.FindNearestLayer(this.VirtualZoom);
-        if (this.LayerData.Count <= findNearestLayer || findNearestLayer >= 0)
+        var findNearestLayer = FindNearestLayer(VirtualZoom);
+        if (LayerData.Count <= findNearestLayer || findNearestLayer >= 0)
         {
-
-
-          var div = this.LayerData[findNearestLayer].ZoomLevel;
+          var div = LayerData[findNearestLayer].ZoomLevel;
           var yeniLandmarkLocation = yeniLandmark.location;
           yeniLandmarkLocation.X *= div;
           yeniLandmarkLocation.Y *= div;
 
           // Work out the location of the marker graphic according to the current zoom level and scroll offset
-          location = this.imageBox.GetOffsetPoint(yeniLandmarkLocation);
+          location = imageBox.GetOffsetPoint(yeniLandmarkLocation);
 
           // adjust the location so that the image is displayed above the location and centered to it
           location.Y -= drawSize.Height;
@@ -265,8 +249,8 @@ namespace Harita
           // Draw the marker
           g.InterpolationMode = InterpolationMode.NearestNeighbor;
           g.DrawImage(
-            this.markerImage,
-            new Rectangle((int)location.X, (int)location.Y, drawSize.Width, drawSize.Height),
+            markerImage,
+            new Rectangle((int) location.X, (int) location.Y, drawSize.Width, drawSize.Height),
             new Rectangle(Point.Empty, originalSize),
             GraphicsUnit.Pixel);
         }
@@ -275,22 +259,22 @@ namespace Harita
       g.Restore(originalState);
     }
 
-    private void ImageBox_Zoomed(object sender, Cyotek.Windows.Forms.ImageBoxZoomEventArgs e)
+    private void ImageBox_Zoomed(object sender, ImageBoxZoomEventArgs e)
     {
       if ((e.Source & ImageBoxActionSources.User) == ImageBoxActionSources.User)
       {
         if ((e.Actions & ImageBoxZoomActions.ActualSize) == ImageBoxZoomActions.ActualSize)
         {
-          this.VirtualZoom = 0;
-          this.ResetZoomOnUpdate = true;
+          VirtualZoom = 0;
+          ResetZoomOnUpdate = true;
         }
         else if ((e.Actions & ImageBoxZoomActions.ZoomIn) == ImageBoxZoomActions.ZoomIn)
         {
-          this.VirtualZoom++;
+          VirtualZoom++;
         }
         else if ((e.Actions & ImageBoxZoomActions.ZoomOut) == ImageBoxZoomActions.ZoomOut)
         {
-          this.VirtualZoom--;
+          VirtualZoom--;
         }
 
         // TODO: Currently the ZoomChanged and Zoomed events are raised after the zoom level has changed, but before any
@@ -299,17 +283,107 @@ namespace Harita
         // However, if you had lots of map changes to make then using a timer would be a good idea regardless; for example
         // if the user rapdily zooms through the available levels, they'll have a smoother experience if you only load
         // the data once they've stopped zooming
-        this.refreshMapTimer.Stop();
-        this.refreshMapTimer.Start();
+        refreshMapTimer.Stop();
+        refreshMapTimer.Start();
       }
-
     }
 
     private void RefreshMapTimer_Tick(object sender, EventArgs e)
     {
       refreshMapTimer.Stop();
-      this.UpdateMap();
+      UpdateMap();
+    }
 
+    private void İmageBox_MouseDown(object sender, MouseEventArgs e)
+    {
+      //var point = e.Location;
+
+      //var realPoint = imageBox.PointToImage(point);
+      //BilgiGoster(realPoint, "Test", "Şehir", Resources.MapMarker);
+    }
+
+    private void BilgiGoster(Point point, string name, string type, Image image)
+    {
+      if (bilgiForm == null || bilgiForm.IsDisposed)
+      {
+        bilgiForm = new Bilgilendirme(point, name, type, image);
+        BilgiGosterTasi(Cursor.Position.X, Cursor.Position.Y);
+        bilgiForm.Show();
+      }
+      else
+      {
+        bilgiForm.Isim = name;
+        bilgiForm.Konum = point;
+        bilgiForm.Resim = image;
+        bilgiForm.Tur = type;
+        BilgiGosterTasi(Cursor.Position.X, Cursor.Position.Y);
+      }
+    }
+
+    private void BilgiGosterTasi(int x, int y)
+    {
+      if (bilgiForm != null && !bilgiForm.IsDisposed) bilgiForm.SetDesktopLocation(x + 10, y + 10);
+    }
+
+    private void İmageBox_MouseMove(object sender, MouseEventArgs e)
+    {
+      BilgiGosterTasi(Cursor.Position.X, Cursor.Position.Y);
+
+      var realPoint = imageBox.PointToImage(e.Location);
+
+      var landmark = Neresi(realPoint);
+      if (landmark != null)
+      {
+        BilgiGoster(landmark.LocationPoint, landmark.Isim, landmark.Tur, Resources.MapMarker);
+      }
+      else
+      {
+        if (bilgiForm != null && !bilgiForm.IsDisposed) bilgiForm.Close();
+      }
+    }
+
+    private ImagePoint Neresi(Point realPoint)
+    {
+      foreach (var landmark in landmarks)
+      {
+        var location = realPoint;
+
+        var findNearestLayer = FindNearestLayer(VirtualZoom);
+        if (LayerData.Count <= findNearestLayer || findNearestLayer >= 0)
+        {
+          var p = new Point((int) landmark.location.X, (int) landmark.location.Y);
+
+          var div = LayerData[findNearestLayer].ZoomLevel;
+          p.X *= div;
+          p.Y *= div;
+
+          if ((p.X - location.X) * (p.X - location.X) + (p.Y - location.Y) * (p.Y - location.Y) <=
+              500)
+            return landmark;
+        }
+      }
+
+      return null;
+    }
+
+    private void İmageBox_MouseLeave(object sender, EventArgs e)
+    {
+      if (bilgiForm != null && !bilgiForm.IsDisposed) bilgiForm.Close();
+    }
+
+    private struct MapLayerData
+    {
+      #region Public Properties
+
+      public int LowerZoom { get; set; }
+
+      public string Name { get; set; }
+
+      public int UpperZoom { get; set; }
+
+      public int ZoomLevel { get; set; }
+
+      #endregion
     }
   }
 }
