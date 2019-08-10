@@ -91,6 +91,7 @@
       this.ResimImageBox.Location = new System.Drawing.Point(12, 12);
       this.ResimImageBox.Name = "ResimImageBox";
       this.ResimImageBox.Size = new System.Drawing.Size(311, 130);
+      this.ResimImageBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
       this.ResimImageBox.TabIndex = 6;
       this.ResimImageBox.TabStop = false;
       // 

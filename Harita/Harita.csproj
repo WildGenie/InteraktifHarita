@@ -85,6 +85,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <None Include="maps\Common.MAP" />
+    <None Include="maps\rename.cmd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -99,12 +101,93 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <Content Include="maps\67.png" />
+    <Content Include="maps\68.png" />
+    <Content Include="maps\69.png" />
+    <Content Include="maps\70.png" />
+    <Content Include="maps\71.png" />
+    <Content Include="maps\72.png" />
+    <Content Include="maps\73.png" />
+    <Content Include="maps\74.png" />
+    <Content Include="maps\75.png" />
+    <Content Include="maps\76.png" />
+    <Content Include="maps\77.png" />
+    <Content Include="maps\78.png" />
+    <Content Include="maps\79.png" />
+    <Content Include="maps\80.png" />
+    <Content Include="maps\archers guild.png" />
+    <Content Include="maps\armourers guild.png" />
+    <Content Include="maps\arms.png" />
+    <Content Include="maps\baker.png" />
+    <Content Include="maps\bank.png" />
+    <Content Include="maps\bard.png" />
+    <Content Include="maps\bardic guild.png" />
+    <Content Include="maps\beekeeper.png" />
+    <Content Include="maps\blacksmith.png" />
+    <Content Include="maps\blacksmiths guild.png" />
+    <Content Include="maps\Body of Water.png" />
+    <Content Include="maps\bowyer.png" />
+    <Content Include="maps\bridge.png" />
+    <Content Include="maps\butcher.png" />
+    <Content Include="maps\carpenter.png" />
+    <Content Include="maps\cavalry guild.png" />
+    <Content Include="maps\champion.png" />
+    <Content Include="maps\customs.png" />
+    <Content Include="maps\docks.png" />
+    <Content Include="maps\dungeon.png" />
+    <Content Include="maps\exit.png" />
+    <Content Include="maps\fishermans guild.png" />
+    <Content Include="maps\fletcher.png" />
+    <Content Include="maps\gate.png" />
+    <Content Include="maps\graveyard.png" />
+    <Content Include="maps\guild.png" />
+    <Content Include="maps\healer.png" />
+    <Content Include="maps\illusionists guild.png" />
+    <Content Include="maps\inn.png" />
+    <Content Include="maps\Island.png" />
+    <Content Include="maps\jeweler.png" />
+    <Content Include="maps\landmark.png" />
+    <Content Include="maps\library.png" />
+    <Content Include="maps\mage.png" />
+    <Content Include="maps\mages guild.png" />
     <Content Include="maps\MAP25166902-1.BMP" />
     <Content Include="maps\MAP25166902-2.BMP" />
     <Content Include="maps\MAP25166902-4.BMP" />
     <Content Include="maps\MAP25166902-8.BMP" />
+    <Content Include="maps\marble patio.png" />
+    <Content Include="maps\market.png" />
+    <Content Include="maps\merchants guild.png" />
+    <Content Include="maps\Minax%27s Fortress.png" />
+    <Content Include="maps\miners guild.png" />
+    <Content Include="maps\moongate.png" />
+    <Content Include="maps\other.png" />
+    <Content Include="maps\painter.png" />
+    <Content Include="maps\point of interest.png" />
+    <Content Include="maps\provisioner.png" />
+    <Content Include="maps\reagents.png" />
+    <Content Include="maps\rogues guild.png" />
+    <Content Include="maps\ruins.png" />
+    <Content Include="maps\scenic.png" />
+    <Content Include="maps\shipwright.png" />
+    <Content Include="maps\shrine.png" />
+    <Content Include="maps\sorcerers guild.png" />
+    <Content Include="maps\stable.png" />
+    <Content Include="maps\stairs.png" />
+    <Content Include="maps\tailor.png" />
+    <Content Include="maps\tanner.png" />
+    <Content Include="maps\tavern.png" />
+    <Content Include="maps\teleporter.png" />
+    <Content Include="maps\Terrain.png" />
+    <Content Include="maps\theater.png" />
+    <Content Include="maps\thieves guild.png" />
+    <Content Include="maps\tinker.png" />
+    <Content Include="maps\tinkers guild.png" />
+    <Content Include="maps\town.png" />
+    <Content Include="maps\warriors guild.png" />
+    <Content Include="maps\weapons guild.png" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\mapmarker.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

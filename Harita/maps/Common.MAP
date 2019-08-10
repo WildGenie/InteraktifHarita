@@ -1,0 +1,871 @@
+3
+-stairs: 5170 1569 1 stairs.png 
+-healer: 575 537 3 healer.png 
+-healer: 682 297 3 healer.png 
+-baker: 1514 611 3 baker.png 
++ruins: 1586 1004 3 ruins.png abandoned building
++landmark: 478 1531 3 landmark.png abandoned mage tower
++ruins: 412 1363 3 ruins.png abandoned tower
++landmark: 575 1140 3 landmark.png abandoned tower
+-bank: 652 820 0 bank.png Abbey Banker
+-inn: 610 810 0 inn.png Abbey Innkeeper
++scenic: 1738 174 3 scenic.png the Abyss
+-painter: 4525 1060 0 painter.png Academy of Arts
+-provisioner: 5737 3262 0 provisioner.png Adventure Outfitters
+-tailor: 1981 2838 0 tailor.png Adventurer's Clothing
+-provisioner: 535 867 0 provisioner.png The Adventurer's Friend
+-tailor: 1359 3781 0 tailor.png Adventurer's Needle
+-provisioner: 2992 638 0 provisioner.png The Adventurer's Supplies
+-inn: 3672 2654 1 inn.png The Albatross
+-tavern: 3668 2652 2 tavern.png The Albatross Bar and Grill
+-mage: 5301 88 0 mage.png The Alchemist of Wind
++Terrain: 1460 448 3 Terrain.png Alexandrella's Bowl
+-shipwright: 3632 2640 1 shipwright.png Anchors Aweigh
++ruins: 1516 542 3 ruins.png Ancient Citadel
++landmark: 221 1363 3 landmark.png ancient wyrm's lair
++scenic: 1414 317 3 scenic.png ancient wyrm's lair
+-arms: 808 697 3 arms.png Anglo-In-Lem
+-arms: 808 586 3 arms.png Angra-Char-In-Lem
+-stable: 1225 563 3 stable.png animal pen
+-stable: 1388 428 3 stable.png animal pen
++shrine: 3359 2679 2 shrine.png Ank of Sacrifice
+-point of interest: 3746 2576 2 point of interest.png Archer Targets
+-arms: 1497 614 3 arms.png an armourer
+-armourers guild: 3587 2601 2 armourers guild.png Armoury
+-blacksmith: 1984 1367 4 blacksmith.png Armoury of Souls
+-arms: 1637 1693 0 arms.png Artistic Armour
+-rogues guild: 1442 1662 0 rogues guild.png Artists' Guild
+-bank: 854 680 3 bank.png Atri-Aur
+-bank: 855 603 3 bank.png Atri-Aur
+-tinker: 766 641 3 tinker.png Atri-Ben-In-Ailem
+-baker: 1880 2802 0 baker.png Baked Delights
+-baker: 3755 2227 0 baker.png Baker's Dozen
+-baker: 1364 3732 0 baker.png Baker's Dozen
++ruins: 512 546 3 ruins.png bandit town
++landmark: 437 1558 3 landmark.png bandstand
++scenic: 748 489 3 scenic.png bandstand
+-bank: 1226 554 3 bank.png a bank
+-bank: 1610 556 3 bank.png a bank
+-bank: 1813 2825 0 bank.png Bank of Britannia: Trinsic Branch
+-bank: 3734 2149 0 bank.png Bank of Magincia
+-bank: 2503 552 0 bank.png Bank of Minoc
+-bank: 3764 1317 0 bank.png Bank of Nujel'm
+-bank: 3695 2511 1 bank.png Bank of Ocllo
+-bank: 587 2146 0 bank.png Bank of Skara Brae
+-bardic guild: 3740 1197 0 bardic guild.png Bardic Guild
+-bardic guild: 3666 2531 2 bardic guild.png Bardic Guild
+-bardic guild: 3665 2531 1 bardic guild.png The Bardic Guild
+-inn: 5197 4060 0 inn.png The Barely Inn
+-tavern: 2475 397 0 tavern.png The Barnacle
+-point of interest: 1962 2691 0 point of interest.png Barracks
+-point of interest: 1937 2711 0 point of interest.png Barracks
+-point of interest: 1938 2688 0 point of interest.png Barracks
++Island: 2122 2755 0 Island.png Barrier Isle
+-stable: 571 2119 0 stable.png Beasts of Burden
++Terrain: 5542 2999 0 Terrain.png Beggars Gorge
+-provisioner: 826 679 3 provisioner.png Ben-In-Lem
+-provisioner: 824 602 3 provisioner.png Ben-In-Lem
+-tanner: 1431 1612 0 tanner.png The Best Hides of Britain
++ruins: 1249 955 3 ruins.png Bet-Lem Reg
+-tanner: 3602 2615 1 tanner.png Better Leather Tannery
+-blacksmith: 3007 3408 0 blacksmith.png Blacksmith
+-blacksmith: 3594 2595 2 blacksmith.png Blacksmith
+-healer: 2084 1372 4 healer.png Bloodletter's Guild
+-bowyer: 590 2205 0 bowyer.png Bloody Bowman
+-carpenter: 570 1015 0 carpenter.png Bloody Thumb Woodworks
+-tavern: 1498 1691 0 tavern.png The Blue Boar
+-inn: 3671 2615 2 inn.png The Bountiful Harvest
+-inn: 3673 2614 1 inn.png The Bountiful Harvest
+-butcher: 582 2186 0 butcher.png Bountiful Meats
+-bowyer: 3745 2585 2 bowyer.png Bowyers
+-baker: 3683 2171 0 baker.png The Bread Basket
+-bridge: 1789 2923 0 bridge.png bridge
+-bridge: 1778 2848 0 bridge.png bridge
++landmark: 1123 1236 3 landmark.png brigand tower
++town: 1546 1634 0 town.png Britain
++graveyard: 1371 1482 0 graveyard.png Britain Cemetery
+-docks: 1470 1765 0 docks.png Britain Docks
++moongate: 1336 1997 0 moongate.png Britain Moongate
+-library: 1409 1590 0 library.png Britain Public Library
+-blacksmiths guild: 1348 1778 0 blacksmiths guild.png Britain's Blacksmith Guild
+-provisioner: 1469 1668 0 provisioner.png Britain's Premier Provisioners and Fish Shoppe
+-reagents: 3013 3353 0 reagents.png Britainian Herbs
+-point of interest: 1507 1567 0 point of interest.png Britannia Animal Care
++landmark: 295 764 0 landmark.png Britannia Prison
+-provisioner: 1850 2796 0 provisioner.png Britannia Provisions
++landmark: 4511 1376 0 landmark.png Britannia Royal Zoo
+-inn: 2967 3408 0 inn.png The Broken Arrow Inn
++Terrain: 1148 1476 4 Terrain.png Broken Mountains
+-warriors guild: 1939 2739 0 warriors guild.png The Brotherhood of Trinsic
+-weapons guild: 1362 3700 0 weapons guild.png Brothers In Arms
+-mage: 2892 654 0 mage.png The Bubbling Brew
+-point of interest: 2667 2087 0 point of interest.png Buccaneer's Bath
++town: 2720 2110 0 town.png Buccaneer's Den
+-docks: 2752 2155 0 docks.png Buccaneer's Den Docks
+-tanner: 2707 2178 0 tanner.png Buccaneer's Den Leatherworks
++moongate: 2711 2234 1 moongate.png Buccaneer's Den Moongate
+-stable: 1510 1543 0 stable.png The Bucking Horse Stables
+-carpenter: 628 2160 0 carpenter.png Builder's Delight
+-inn: 5310 34 0 inn.png bunkhouse
+-other: 1288 769 3 other.png Burning Corpse
+-beekeeper: 2957 705 0 beekeeper.png The Busy Bees
+-butcher: 1400 434 3 butcher.png a butcher
+-butcher: 2992 776 0 butcher.png The Butcher's Knife
+-arms: 1475 3865 0 arms.png Call to Arms
++scenic: 768 1284 3 scenic.png campfire
+-carpenter: 3642 2504 2 carpenter.png Carpenters of Haven
+-carpenter: 5691 3209 0 carpenter.png The Carpentry House
+-tavern: 1427 1716 0 tavern.png The Cat's Lair
+-cavalry guild: 1578 1558 0 cavalry guild.png Cavalry Guild
++dungeon: 314 1329 3 dungeon.png cave passage
++dungeon: 226 1336 3 dungeon.png cave passage
++graveyard: 2437 1104 0 graveyard.png cemetery
++graveyard: 5696 3660 0 graveyard.png cemetery passage
+-exit: 533 1532 3 exit.png central dungeon
++dungeon: 576 1156 3 dungeon.png central dungeon
++dungeon: 664 929 3 dungeon.png central dungeon
+-exit: 155 1474 3 exit.png central dungeon
+-exit: 4 1267 3 exit.png central dungeon
+-point of interest: 1538 1597 0 point of interest.png The Chamber of Virtue
++champion: 462 926 3 champion.png Champ "Humility"
++champion: 1645 1108 3 champion.png Champ "Lord Oaks and the Forest Queen" 
++champion: 383 329 3 champion.png Champ "Valor"
++champion: 5511 2360 1 champion.png Champ 1 "Ice West"
++champion: 5559 3757 1 champion.png Champ 10 "Wild" (Lord Oaks)
++champion: 5982 3882 1 champion.png Champ 11 "Khaldun"
++champion: 5724 3991 1 champion.png Champ 12 "Tortoise"
++champion: 6038 2400 1 champion.png Champ 2 "Ice East"
++champion: 5549 2640 1 champion.png Champ 3 "Oasis"
++champion: 5636 2916 1 champion.png Champ 4 "Desert"
++champion: 6035 2944 1 champion.png Champ 5 "Terra Sanctum"
++champion: 5267 3171 1 champion.png Champ 6 "Marble"
++champion: 5281 3368 1 champion.png Champ 7 "Damwin"
++champion: 5954 3475 1 champion.png Champ 8 "Hopper's Boog"
++champion: 5207 3637 1 champion.png Champ 9 "City of Death"
++champion: 5178 708 1 champion.png Champ Deceit: Neira (Unholy Terror)
++champion: 5259 837 1 champion.png Champ Destard: Rikktor (Cold Blood)
++champion: 5557 826 1 champion.png Champ of Despice: Barracoon (Vermin Horde)
++champion: 5814 1351 1 champion.png Champ of Fire: Semidar (Abyss)
++champion: 5189 1605 1 champion.png Champ of the Tera-Keep: Mephistis (Arachnid)
+-warriors guild: 2841 907 0 warriors guild.png The Champion's of Light
++moongate: 1721 218 3 moongate.png Chaos
++shrine: 1749 234 3 shrine.png Chaos
++shrine: 1458 844 0 shrine.png Chaos
+-point of interest: 3727 1361 0 point of interest.png The Chessboard
++Body of Water: 5260 3737 0 Body of Water.png Cibilo Creek
+-gate: 1370 3868 0 gate.png City Gate
+-gate: 1475 3690 0 gate.png City Gate
+-gate: 3657 1202 0 gate.png City Gates
++ruins: 5219 3645 0 ruins.png City of the Dead
+-butcher: 1449 1723 0 butcher.png The Cleaver
+-tailor: 981 527 4 tailor.png Clothier's Colors
+-painter: 2906 710 0 painter.png The Colored Canvass
++marble patio: 3599 2491 2 marble patio.png Companion Hall
++moongate: 1215 467 3 moongate.png Compassion
++shrine: 1210 477 3 shrine.png Compassion
++shrine: 1858 874 0 shrine.png Compassion
++landmark: 1091 703 3 landmark.png Controller Tower
++Terrain: 2172 1144 4 Terrain.png Corrupted Foresets
+-guild: 2948 3349 0 guild.png Counselor's Guild
+-guild: 3721 2177 0 guild.png Counselor's Guild
+-guild: 610 2128 0 guild.png Counselor's Guild
+-guild: 2434 438 0 guild.png Counselor's Guild
+-guild: 1498 1518 0 guild.png Counselor's Guild
+-guild: 3769 1190 0 guild.png Counselor's Guild
+-guild: 616 980 0 guild.png Counselor's Guild
+-guild: 4478 1126 0 guild.png Counselor's Guild
+-guild: 1418 3703 0 guild.png Counselor's Guild
+-guild: 2843 944 0 guild.png Counselor's Guild
+-guild: 1893 2838 0 guild.png Counselor's Guild
+-guild: 1628 1664 0 guild.png Counselor's Guild
+-guild: 3667 2502 1 guild.png Counselor's Guild Hall
++landmark: 370 899 0 landmark.png Court of Truth
++town: 2263 1237 0 town.png Cove
+-docks: 2256 1181 0 docks.png Cove Dock
++dungeon: 2499 916 0 dungeon.png Covetous
+-exit: 5456 1863 0 exit.png Covetous
+-stable: 1995 1318 4 stable.png Critter Pens
++Terrain: 736 1180 4 Terrain.png Crumbling Mountains
++Terrain: 1388 616 4 Terrain.png Crystal Fens
+-customs: 1476 1745 0 customs.png Customs
+-blacksmith: 2637 2075 0 blacksmith.png Cutlass Smithing
++Terrain: 5139 2903 0 Terrain.png Cyclops Valley
++landmark: 758 208 3 landmark.png cyclopse camp
+-exit: 1014 1507 3 exit.png cyclopse dungeon
++dungeon: 904 1362 3 dungeon.png cyclopse dungeon
++scenic: 747 247 3 scenic.png cyclopse garden
++landmark: 907 1283 3 landmark.png cyclopse's pyramid
+-bridge: 1521 1673 0 bridge.png Cypress Bridge
++landmark: 894 1000 3 landmark.png dam
++Terrain: 5265 3270 0 Terrain.png Damwin Thicket
+-tailor: 2074 1334 4 tailor.png Darkweave
++Terrain: 429 1433 3 Terrain.png dead forest
+-arms: 1359 3763 0 arms.png Deadly Intentions
+-point of interest: 3715 1383 0 point of interest.png Debtor's Prison
++dungeon: 4111 429 0 dungeon.png Deceit
+-exit: 5188 638 0 exit.png Deceit
+-healer: 647 1087 0 healer.png Deep Forest Healing
++town: 5227 3978 0 town.png Delucia
+-stable: 5297 4007 0 stable.png Delucia Stable
+-tailor: 5234 4025 0 tailor.png Delucia Tailor
++Terrain: 966 637 3 Terrain.png Desert
++town: 1506 622 3 town.png Desert Outpost
++town: 1608 550 3 town.png Desert Outpost
++dungeon: 1296 1082 0 dungeon.png Despise
+-exit: 5588 632 0 exit.png Despise
++dungeon: 1176 2635 0 dungeon.png Destard
+-exit: 5244 1007 0 exit.png Destard
+-inn: 665 665 3 inn.png The Deuce's Vinculum Inn
++Terrain: 1372 892 4 Terrain.png Divide of the Abyss
+-tavern: 2972 3425 0 tavern.png The Dog and Lion Pub
++dungeon: 2357 1268 4 dungeon.png Doom
+-point of interest: 39 688 3 point of interest.png Dragon's Egg
++dungeon: 940 502 3 dungeon.png Dragon's Lair
++Terrain: 2128 1668 4 Terrain.png Dry Highlands
+-point of interest: 1397 3744 0 point of interest.png The Dueling Pit
+-bank: 1655 1606 0 bank.png East Britain Bank
++scenic: 2587 492 0 scenic.png The East Mines
+-point of interest: 1608 1622 0 point of interest.png East Side Park
+-bridge: 2083 2796 0 bridge.png East Trinsic Bridge
++dungeon: 349 1428 3 dungeon.png Elemental Arena
+-exit: 20 1197 3 exit.png Elemental Arena
++Terrain: 312 1442 3 Terrain.png Elemental Canyon
++landmark: 635 851 0 landmark.png Empath Abbey
+-mages guild: 4545 860 0 mages guild.png Encyclopedia Magicka
+-mage: 1843 2711 0 mage.png Encyclopedia Magicka
+-gate: 1200 704 3 gate.png Entrance
++landmark: 5165 246 0 landmark.png entrance
++dungeon: 1236 583 3 dungeon.png Entrance to Central Area
++dungeon: 710 667 3 dungeon.png Entrance to Central Area
+-reagents: 1498 1659 0 reagents.png Ethereal Goods
++dungeon: 1363 1032 3 dungeon.png Etherial Tombs
+-exit: 1982 1106 3 exit.png Etherial Tombs
+-healer: 1364 1051 3 healer.png etherial warrior castle healer
++dungeon: 1140 593 3 dungeon.png Exit to Ilshenar
++dungeon: 911 451 3 dungeon.png Exit to Ilshenar
+-inn: 595 2248 0 inn.png The Falconer's Inn
+-jeweler: 3661 2183 0 jeweler.png The Family Jewels
+-other: 3708 2588 2 other.png Farm
+-other: 3739 2563 2 other.png Farm
+-other: 3731 2635 2 other.png Farm
+-market: 4481 1085 0 market.png Farmer's Market
+-market: 1392 3824 0 market.png Farmer's Market
+-market: 611 2157 0 market.png Farmer's Market
+-market: 3019 766 0 market.png Farmer's Market
+-provisioner: 2216 1192 0 provisioner.png The Farmer's Market
+-butcher: 4395 1137 0 butcher.png The Fatted Calf
+-butcher: 1457 4028 0 butcher.png Finest Cuts
++dungeon: 2922 3402 0 dungeon.png Fire
++dungeon: 5757 2909 0 dungeon.png Fire
+-exit: 5687 1424 0 exit.png Fire (B)
+-exit: 5792 1415 0 exit.png Fire (LL)
+-theater: 3685 2477 1 theater.png First Academy of Music
+-bank: 1425 1690 0 bank.png The First Bank of Britain
+-bank: 4471 1156 0 bank.png First Bank of Moonglow and Tinker's Guild
+-blacksmith: 1395 3705 0 blacksmith.png First Defense
+-library: 1494 1715 0 library.png The First Library of Britain
+-stable: 2010 2807 0 stable.png First Trinsic Stablery
+-tavern: 3012 3457 0 tavern.png Fisherman's Brew
+-fishermans guild: 2963 813 0 fishermans guild.png The Fisherman's Guild
+-fishermans guild: 3685 2256 0 fishermans guild.png Fisherman's Guild and Supplies
+-market: 3018 785 0 market.png Fisherman's Warf
++scenic: 1589 1190 3 scenic.png flowstone
++scenic: 596 946 3 scenic.png a flowstone surrounded by runes
+-blacksmith: 1261 582 3 blacksmith.png a forge
++scenic: 1606 1265 3 scenic.png forge
+-blacksmith: 2471 564 0 blacksmith.png The Forgery
++ruins: 1825 1799 4 ruins.png Forgotten Pyramid
+-point of interest: 792 641 3 point of interest.png Fountain
++landmark: 447 1526 3 landmark.png fountain
+-other: 5331 707 1 other.png from Ancient Wyrm's Lair - Teleporter
+-other: 5201 1564 1 other.png from Despice- and Ancient-Wyrm-Teleporter
+-other: 5164 1009 1 other.png from Despice-Teleporter
+-other: 5606 802 1 other.png from Fire-and Deceit-Teleporter
+-other: 5171 1586 1 other.png from Starroom-Teleporter
+-other: 5814 3548 1 other.png from Teleporter T1 "Ice West"
+-other: 5958 2345 1 other.png from Teleporter T2 "Ice East"
+-other: 5522 3921 1 other.png from Teleporter T3 "Ice East"
+-other: 6089 2400 1 other.png from Teleporter T4 Northeast of "Ice East"
+-other: 5490 2348 1 other.png from Teleporter T5 South of Papua
+-other: 5972 2418 1 other.png from Teleporter T6 East of Delucia
+-other: 5143 1774 1 other.png from Tera- Keep-Teleporter
+-other: 5876 1378 1 other.png from Tera-Keep-Teleporter
+-carpenter: 1435 3820 0 carpenter.png From Tree to Yew
+-shipwright: 3667 2252 0 shipwright.png The Furled Sail
+-tinker: 2899 790 0 tinker.png The Gadget's Corner
+-tinker: 1404 3805 0 tinker.png Gadgets and Things
+-point of interest: 3633 2597 2 point of interest.png Garden with Waterfall
++landmark: 946 427 3 landmark.png Gargoyle Mining Camp
++teleporter: 2618 980 0 teleporter.png gate to Buccaneer's Den
++teleporter: 2728 2133 0 teleporter.png gate to mainland
+-point of interest: 1635 1561 0 point of interest.png Gazebo
+-tinker: 2461 457 0 tinker.png Gears and Gadgets
++Body of Water: 5804 3468 0 Body of Water.png The Gentle River
++Body of Water: 5838 3766 0 Body of Water.png The Gentle River
+-baker: 2017 1354 4 baker.png Ghast Refectory
++scenic: 1197 1034 3 scenic.png giant yew tree
+-jeweler: 1655 1642 0 jeweler.png A Girl's Best Friend
++Terrain: 1352 664 3 Terrain.png glacier
+-miners guild: 2505 432 0 miners guild.png The Golden Pick Axe
+-baker: 1450 1617 0 baker.png Good Eats
+-arms: 652 2160 0 arms.png Gore Galore
++landmark: 939 637 4 landmark.png Grand Arena
+-provisioner: 2016 1328 4 provisioner.png Gravedigger's Aparatus
++Body of Water: 1596 1656 4 Body of Water.png Gravewater Lake
++graveyard: 327 889 3 graveyard.png graveyard
++graveyard: 3649 2859 2 graveyard.png Graveyard
++graveyard: 3404 2653 2 graveyard.png graveyard
+-tavern: 3730 2218 0 tavern.png Great Horns Tavern
+-bowyer: 624 1147 0 bowyer.png Great Oak Bowyer
+-shipwright: 634 1038 0 shipwright.png Great Oak Vessels
++ruins: 2192 327 4 ruins.png Grimswind Ruins
+-bridge: 1383 1746 0 bridge.png Gung Farmer's Bridge
++scenic: 2533 654 0 scenic.png Gypsy Camp
++town: 1240 565 3 town.png gypsy caravan
++town: 1380 425 3 town.png gypsy caravan
+-blacksmith: 1418 1547 0 blacksmith.png The Hammer and Anvil
+-carpenter: 2917 798 0 carpenter.png The Hammer and Nail
+-arms: 3632 2595 1 arms.png Hammer and Steel Smithy
+-armourers guild: 1437 3884 0 armourers guild.png Hand of Death
+-carpenter: 1002 518 4 carpenter.png Hardwoods and More
++scenic: 1675 965 3 scenic.png harpy nest
++town: 3664 2558 2 town.png Haven
+-blacksmith: 3645 2617 2 blacksmith.png The Haven Blacksmith
+-tinker: 3667 2506 2 tinker.png Haven Clockworks and Tinker Shop
+-docks: 3655 2665 2 docks.png Haven Docks
++moongate: 3763 2771 2 moongate.png Haven Moongate
+-library: 3615 2476 2 library.png Haven Public Library
+-thieves guild: 3693 2509 2 thieves guild.png The Haven Thieves' Guild
++scenic: 1201 762 3 scenic.png Hay Fields
++scenic: 1269 727 3 scenic.png Hay Fields
+-healer: 5191 3989 0 healer.png a Healer
+-healer: 1472 1607 0 healer.png Healer of Britain
+-healer: 2709 2130 0 healer.png Healer of Buccaneer's Den
+-healer: 3687 2227 0 healer.png Healer of Magincia
+-healer: 3629 2608 1 healer.png Healer of Ocllo
+-healer: 620 2218 0 healer.png Healer of Skara Brae
+-healer: 2920 856 0 healer.png Healer of Vesper
+-healer: 532 958 0 healer.png Healer of Yew
+-healer: 284 536 3 healer.png healer's hut
+-healer: 1235 543 3 healer.png healer's hut
+-healer: 1407 428 3 healer.png healer's hut
+-healer: 1628 548 3 healer.png healer's hut
+-healer: 1518 619 3 healer.png healer's hut
+-healer: 3665 2581 2 healer.png The Healers of Haven
+-healer: 2577 599 0 healer.png The Healing Hand
+-healer: 2245 1231 0 healer.png The Healing Hand
+-healer: 5737 3222 0 healer.png The Healing Hand
+-healer: 1093 955 3 healer.png a healing temple
+-arms: 1437 1647 0 arms.png Heavy Metal Armorer
++scenic: 1146 2215 0 scenic.png Hedge Maze
+-reagents: 4416 1133 0 reagents.png Herbal Splendor
++moongate: 722 1366 3 moongate.png Honesty
++shrine: 719 1351 3 shrine.png Honesty
++shrine: 4212 563 0 shrine.png Honesty
++moongate: 744 724 3 moongate.png Honor
++shrine: 748 731 3 shrine.png Honor
++shrine: 1723 3527 0 shrine.png Honor
+-blacksmith: 1937 2771 0 blacksmith.png Honorable Arms
++Terrain: 5978 3447 0 Terrain.png Hoppers Bog
+-tavern: 1452 3770 0 tavern.png The Horse's Head
++moongate: 281 1016 3 moongate.png Humility
++shrine: 287 1013 3 shrine.png Humility
++shrine: 4274 3697 0 shrine.png Humility
++landmark: 3715 2838 2 landmark.png Hunters Cabin
+-mage: 5296 3978 0 mage.png Hut of Magics
++dungeon: 4722 3814 0 dungeon.png Hythloth
+-exit: 5904 16 0 exit.png Hythloth
++dungeon: 5203 2328 0 dungeon.png Ice
++dungeon: 1996 80 0 dungeon.png Ice
+-exit: 5882 243 0 exit.png Ice (B)
+-exit: 5875 147 0 exit.png Ice (LL)
+-exit: 84 750 3 exit.png Ilshenar Central Area
+-healer: 872 586 3 healer.png In-Mani-Lem
+-mage: 1590 1654 0 mage.png Incantations & Enchantments
+-inn: 1620 554 3 inn.png an inn
+-inn: 2782 969 0 inn.png The Ironwood Inn
+-arms: 2865 852 0 arms.png The Ironworks
++teleporter: 2494 3576 0 teleporter.png island temple portal
++Body of Water: 5274 2883 0 Body of Water.png J'Fer Sok
+-point of interest: 1855 2769 0 point of interest.png Jail
++landmark: 5291 1169 0 landmark.png jail
+-jeweler: 3778 1172 0 jeweler.png Jewel of the Isle
+-jeweler: 1605 541 3 jeweler.png a jeweler
++town: 1359 3671 0 town.png Jhelom
+-arms: 1456 3850 0 arms.png Jhelom Armory
+-bank: 1317 3773 0 bank.png Jhelom Bank and Jeweler
++graveyard: 1283 3731 0 graveyard.png Jhelom Cemetery
+-docks: 1512 3989 0 docks.png Jhelom Docks
+-docks: 1372 3908 0 docks.png Jhelom Docks
+-docks: 1504 3693 0 docks.png Jhelom Docks
+-docks: 1125 3687 0 docks.png Jhelom Docks
+-healer: 1416 3779 0 healer.png Jhelom Healer
+-library: 1387 3771 0 library.png Jhelom Library
+-mage: 1424 3975 0 mage.png Jhelom Mage
++moongate: 1500 3772 0 moongate.png Jhelom Moongate
+-tailor: 1455 4006 0 tailor.png Jhelom's Fine Tailoring
+-baker: 559 995 0 baker.png The Jolly Baker
+-inn: 5775 3161 0 inn.png The Just Inn
++moongate: 987 1011 3 moongate.png Justice
++shrine: 985 1005 3 shrine.png Justice
++shrine: 1300 633 0 shrine.png Justice
+-tavern: 1935 2796 0 tavern.png The Keg and Anchor
++dungeon: 6009 3775 1 dungeon.png Khaldun
++dungeon: 5882 3819 1 dungeon.png Khaldun
+-theater: 1449 1590 0 theater.png The King's Men Theater
+-jeweler: 859 698 3 jeweler.png Klar-Lap-In-Lem
++Terrain: 5382 2343 0 Terrain.png Kos Heb
++Terrain: 5954 2363 0 Terrain.png Kos Heb
++ruins: 1200 1127 3 ruins.png Lakeshire/Mireg
+-guild: 872 686 3 guild.png Lap-In-Lem
+-guild: 792 617 3 guild.png Lap-In-Lem
+-provisioner: 3673 2595 2 provisioner.png Last Chance Provisioners
+-provisioner: 3636 2565 1 provisioner.png Last Chance Provisioners
++Terrain: 480 882 3 Terrain.png lava vent
+-library: 5238 144 0 library.png The Learned Mage
++Body of Water: 1688 840 3 Body of Water.png Lenmir Antinmolas
+-library: 868 657 3 library.png Librum
+-library: 869 625 3 library.png Librum
+-jeweler: 2051 1398 4 jeweler.png Lich's Hoard
++landmark: 3457 3056 2 landmark.png Lighthouse
++landmark: 5671 2391 0 landmark.png lighthouse passage
+-mage: 3632 2573 2 mage.png The Little Shop of Magic
++ruins: 292 1356 3 ruins.png lizard man camp
+-gate: 401 1251 3 gate.png lizzardman gate
+-gate: 367 1261 3 gate.png lizzardman gate
++landmark: 3595 2865 2 landmark.png Loggers Camp
++landmark: 1530 1428 0 landmark.png Lord Blackthorn's Castle
++landmark: 1323 1624 0 landmark.png Lord British's Castle
+-bard: 1455 1557 0 bard.png Lord British's Conservatory of Music
+-tailor: 1385 1593 0 tailor.png Lord British's Tailor
+-arms: 1365 1575 0 arms.png The Lord's Arms
+-tailor: 1467 1686 0 tailor.png The Lord's Clothiers
++moongate: 1015 527 4 moongate.png Luna
++town: 985 481 4 town.png Luna
+-bank: 996 519 4 bank.png Luna Bank
++landmark: 4312 1000 0 landmark.png The Lyceaeum
+-mage: 1394 441 3 mage.png a mage
+-mage: 1505 611 3 mage.png a mage
+-baker: 5351 56 0 baker.png Mage's Appetite
+-baker: 4392 1068 0 baker.png Mage's Bread
+-bridge: 1520 1578 0 bridge.png Mage's Bridge
+-carpenter: 4416 1085 0 carpenter.png The Mage's Seat
+-provisioner: 5154 97 0 provisioner.png Mage's Things
+-mage: 602 2180 0 mage.png Mages' Menagerie
+-mage: 2918 672 0 mage.png The Magical Light
+-reagents: 5215 117 0 reagents.png Magical Supplies
+-reagents: 2992 844 0 reagents.png The Magician's Friend
++town: 3735 2200 0 town.png Magincia
+-docks: 3674 2293 0 docks.png Magincia Docks
+-miners guild: 3665 2140 0 miners guild.png Magincia Miner's Guild
++moongate: 3564 2140 0 moongate.png Magincia Moongate
+-point of interest: 3796 2259 0 point of interest.png Magincia Parliment
+-mage: 3704 2222 0 mage.png Magincia's Magicka
+-gate: 1477 1638 0 gate.png The Main Gate
+-shipwright: 2997 819 0 shipwright.png The Majestic Boat
+-shipwright: 3636 2642 2 shipwright.png Mapmaker's of Haven
+-tavern: 2901 908 0 tavern.png The Marsh Hall
+-illusionists guild: 4626 1207 0 illusionists guild.png Masters of Illusion
+-miners guild: 2455 487 0 miners guild.png The Matewan
++scenic: 753 493 3 scenic.png memorial to Gwenno
+-merchants guild: 1474 1597 0 merchants guild.png The Merchant's Guild
+-merchants guild: 3703 2249 0 merchants guild.png The Merchant's Guild
+-other: 1947 2677 0 other.png Mess Hall
+-arms: 4392 1117 0 arms.png The Mighty Axe
++Minax's Fortress: 5778 3376 1 Minax's Fortress.png Minax's Fortress
+-miners guild: 1417 1578 0 miners guild.png The Miner's Guild
+-miners guild: 3754 2704 2 miners guild.png Miners
++landmark: 2590 532 0 landmark.png Mining Camp
++landmark: 3498 2844 2 landmark.png Mining Cave
++landmark: 3610 2740 2 landmark.png Mining Cave
++town: 2502 522 0 town.png Minoc
++moongate: 2702 692 0 moongate.png Minoc Moongate
+-point of interest: 2429 528 0 point of interest.png Minoc Town Hall
+-bank: 2881 684 0 bank.png The Mint of Vesper
++landmark: 821 1060 3 landmark.png Mistas
+-inn: 774 1144 3 inn.png Mistas Regsit
++landmark: 3589 2808 2 landmark.png Mongbat Tower
++landmark: 1668 292 3 landmark.png Montor
++town: 4457 1117 0 town.png Moonglow
++graveyard: 4541 1319 0 graveyard.png Moonglow Cemetery
+-docks: 4406 1038 0 docks.png Moonglow Docks
+-healer: 4392 1089 0 healer.png Moonglow Healer
++moongate: 4468 1284 0 moongate.png Moonglow Moongate
+-reagents: 4416 1112 0 reagents.png Moonglow Reagent Shop
+-inn: 4484 1064 0 inn.png Moonglow Student Hostel
+-mage: 4448 1090 0 mage.png Moonglow's Finest Alchemy
+-arms: 586 2170 0 arms.png More Than Just Mail
+-inn: 1360 3815 0 inn.png The Morning Star Inn
++Terrain: 3690 2760 2 Terrain.png Mountain Pass
++dungeon: 1457 1329 3 dungeon.png mushroom caves
+-exit: 1478 1495 3 exit.png mushroom caves
+-other: 2891 744 0 other.png The Musician's Hall
+-mage: 659 2141 0 mage.png Mystic Treasures
+-bard: 2424 555 0 bard.png The Mystical Lute
+-tavern: 3769 1218 0 tavern.png Mystical Spirits
+-baker: 5746 3200 0 baker.png Nature's Best Baked Goods
+-exit: 2188 319 3 exit.png ne dungeon
++dungeon: 1788 569 3 dungeon.png ne dungeon
+-mage: 2024 1383 4 mage.png Necromancer Ampitheater
+-provisioner: 1444 3794 0 provisioner.png Needful Things
+-warriors guild: 2482 428 0 warriors guild.png The New World Order
+-docks: 2940 3410 0 docks.png North Docks
++scenic: 2452 79 0 scenic.png The North Mines
+-inn: 1458 1525 0 inn.png The North Side Inn
+-bridge: 1550 1529 0 bridge.png The Northern Bridge
++Terrain: 1580 384 4 Terrain.png Northern Crags
+-baker: 3610 2577 1 baker.png Now You're Cookin'
++Terrain: 420 1196 3 Terrain.png Nox Tereg
++town: 3600 1231 0 town.png Nujel'm
+-blacksmith: 3546 1185 0 blacksmith.png Nujel'm Blacksmith
+-fletcher: 3546 1194 0 fletcher.png Nujel'm Bowry
+-butcher: 3555 1171 0 butcher.png Nujel'm Butcher
++graveyard: 3529 1141 0 graveyard.png Nujel'm Cemetery
+-point of interest: 3723 1396 0 point of interest.png Nujel'm Court
+-point of interest: 3690 1284 0 point of interest.png Nujel'm Palace
+-tanner: 3545 1178 0 tanner.png Nujel'm Tannery
+-theater: 3739 1231 0 theater.png Nujel'm Theater
++dungeon: 548 454 3 dungeon.png nw dungeon
+-exit: 427 112 3 exit.png nw dungeon
++dungeon: 556 427 3 dungeon.png nw dungeon
+-carpenter: 2513 477 0 carpenter.png The Oak Throne
+-shipwright: 1416 1754 0 shipwright.png The Oaken Oar
++Body of Water: 993 620 3 Body of Water.png Oasis
++Terrain: 5543 2618 0 Terrain.png oasis
+-fishermans guild: 1437 3750 0 fishermans guild.png Ocean's Treasure
++town: 3664 2558 1 town.png Ocllo
+-docks: 3647 2681 1 docks.png Ocllo Docks
+-library: 3612 2466 1 library.png Ocllo Public Library
++landmark: 3519 2787 2 landmark.png Old Mine Entrance - Closed
+-provisioner: 2453 425 0 provisioner.png The Old Miners' Supplies
+-blacksmith: 630 2194 0 blacksmith.png On Guard Armoury
+-provisioner: 994 510 4 provisioner.png Open Market
++ruins: 5765 2618 0 ruins.png Ophidian Lair
++landmark: 18 950 3 landmark.png The Oracle
++dungeon: 1014 1434 0 dungeon.png Orc Cave
++landmark: 1340 1226 4 landmark.png Orc Forst
++ruins: 632 1484 0 ruins.png Orc Fort
++ruins: 2176 1372 0 ruins.png Orc Fort
++ruins: 5211 3611 0 ruins.png Orc Fort
++scenic: 1183 1188 3 scenic.png orchard
+-miners guild: 2855 734 0 miners guild.png The Ore of Vesper
+-painter: 3638 2499 1 painter.png Paint and More
+-library: 2003 2726 0 library.png Paladin's Library
+-inn: 1005 522 4 inn.png Paladin's Stopover
++town: 5751 3231 0 town.png Papua
+-docks: 5839 3256 0 docks.png Papua dock
+-tailor: 5754 3273 0 tailor.png Papua Tailor
+-point of interest: 1893 2763 0 point of interest.png park
+-point of interest: 5251 58 0 point of interest.png park
++Terrain: 1028 272 3 Terrain.png Pass of Karnaugh
++landmark: 881 1303 3 landmark.png passage
++landmark: 857 1312 3 landmark.png passage
++dungeon: 6075 3330 0 dungeon.png passage to Britain
++dungeon: 1628 3318 0 dungeon.png passage to Delucia
++landmark: 2775 893 0 landmark.png passage to Lost Cemetery
++landmark: 2404 218 0 landmark.png passage to Lost Lands
++landmark: 6084 3674 0 landmark.png passage to North Mines
++dungeon: 5150 4063 0 dungeon.png passage to Trinsic
++dungeon: 5138 3665 0 dungeon.png passage to Trinsic
+-jeweler: 1447 3981 0 jeweler.png The Pearl of Jhelom
+-jeweler: 1895 2809 0 jeweler.png The Pearl of Trinsic
+-inn: 2715 2098 0 inn.png The Peg Leg Inn
+-theater: 1424 4016 0 theater.png Performing Arts Centre
+-shipwright: 5805 3270 0 shipwright.png Pier 39
+-thieves guild: 2659 2194 0 thieves guild.png Pirate's Den
+-tavern: 2680 2238 0 tavern.png The Pirate's Plunder
+-provisioner: 2735 2254 0 provisioner.png Pirate's Provisioners
+-bank: 2731 2192 0 bank.png A Place Fer Yer Stuff
+-baker: 2975 3358 0 baker.png Plenty O' Dough
++scenic: 1548 1192 3 scenic.png pool
+-gate: 1421 1633 0 gate.png Poor Gate
++Body of Water: 495 370 3 Body of Water.png Pormir Felwis
++Body of Water: 706 469 3 Body of Water.png Pormir Harm
++Body of Water: 1128 816 3 Body of Water.png Pormir Priin "River of Unity"
++teleporter: 5905 4069 0 teleporter.png portal to island temple
++teleporter: 5733 3190 0 teleporter.png portal to Moonglow (recsu)
++teleporter: 4540 845 0 teleporter.png portal to Papua (recdu)
++landmark: 826 777 3 landmark.png Power Core
+-jeweler: 1451 1679 0 jeweler.png Premier Gems
+-butcher: 3714 2651 2 butcher.png The Prime Cut Butcher Shop
+-provisioner: 1602 1712 0 provisioner.png Profuse Provisions
+-provisioner: 1598 539 3 provisioner.png a provisioner
+-blacksmith: 3554 1202 0 blacksmith.png Public Smithing
+-fletcher: 1470 1578 0 fletcher.png Quality Fletching
+-fletcher: 2861 812 0 fletcher.png The Ranger's Tool
+-warriors guild: 3740 2692 2 warriors guild.png Rangers Cabin
+-archers guild: 554 2145 0 archers guild.png Rangers' Guild
++landmark: 645 817 3 landmark.png ratman lair
+-exit: 1348 1510 3 exit.png ratman mine
++dungeon: 1030 1154 3 dungeon.png ratman mine
++ruins: 1069 1151 3 ruins.png ratman village
++scenic: 1280 734 3 scenic.png Reagent Garden
+-reagents: 5714 3202 0 reagents.png The Reagent Shop
+-provisioner: 1852 2831 0 provisioner.png Red's Curious Goods
++landmark: 1362 1073 3 landmark.png Reg Volom
+-inn: 3732 1306 0 inn.png Restful Slumber
+-healer: 369 1432 3 healer.png resurrection tree
+-arms: 5805 3300 0 arms.png The Revenge Shoppe
+-point of interest: 1280 779 3 point of interest.png Ridgeback Pen
+-tailor: 1547 1659 0 tailor.png The Right Fit
+-bridge: 1512 1705 0 bridge.png River's Gate Bridge
++Body of Water: 5360 3396 0 Body of Water.png The Ru
++Body of Water: 5457 3831 0 Body of Water.png The Ru
++ruins: 1084 651 3 ruins.png Ruined Castle
++ruins: 653 933 3 ruins.png ruined tower
++ruins: 875 524 3 ruins.png Ruined Villa
++ruins: 337 864 3 ruins.png ruins
+-inn: 2033 2801 0 inn.png The Rusty Anchor
++moongate: 1174 1286 3 moongate.png Sacrifice
++shrine: 1171 1288 3 shrine.png Sacrifice
++shrine: 3355 289 0 shrine.png Sacrifice
+-mage: 1001 523 4 mage.png Sage's Refuge
+-shipwright: 1452 3747 0 shipwright.png Sailor's Keeper
++Terrain: 5724 2923 0 Terrain.png Sak Teb
+-tavern: 1620 1586 0 tavern.png The Salty Dog
++landmark: 1044 519 3 landmark.png Savage Camp
++landmark: 1238 733 3 landmark.png Savage Clan Settlement
+-carpenter: 1430 1597 0 carpenter.png The Saw Horse
+-tailor: 4458 1060 0 tailor.png Scholar's Cut
+-provisioner: 4417 1064 0 provisioner.png The Scholar's Goods
+-inn: 4401 1165 0 inn.png The Scholar's Inn
++dungeon: 1747 1235 3 dungeon.png se dungeon
+-exit: 2114 830 3 exit.png se dungeon
++Body of Water: 5937 2660 0 Body of Water.png Sea of Harmony
+-shipwright: 3700 1214 0 shipwright.png Seaborne Ships
+-customs: 3717 1228 1 customs.png Seaborne Ships
+-library: 5243 179 0 library.png Seat of Knowledge
+-bank: 3620 2617 2 bank.png The Second Bank of Haven
+-arms: 4440 1162 0 arms.png Second Defense Armory
+-arms: 1441 3719 0 arms.png Second Skin
+-inn: 5165 30 0 inn.png Seeker's Inn
+-point of interest: 1541 1685 0 point of interest.png Senator Robin's House and Office
+-butcher: 2912 3485 0 butcher.png Serpent Hold Meats
++landmark: 2986 2887 0 landmark.png Serpent Pillar (doracron)
++landmark: 425 3279 0 landmark.png Serpent Pillar (doracron)
++landmark: 5974 2694 0 landmark.png Serpent Pillar (sueacron)
++landmark: 5266 2757 0 landmark.png Serpent Pillar (sueacron)
+-warriors guild: 3031 3350 0 warriors guild.png Serpent Warriors
+-arms: 3018 3433 0 arms.png Serpent's Arms
++town: 3025 3498 0 town.png Serpent's Hold
+-bank: 2880 3472 0 bank.png Serpent's Hold Bank
+-healer: 2997 3428 0 healer.png Serpent's Hold Healer
+-stable: 3036 3464 0 stable.png Serpent's Hold Stablery
+-mage: 3002 3350 0 mage.png Serpent's Spells
++dungeon: 811 874 3 dungeon.png Serpentine Passage
++Terrain: 5470 3515 0 Terrain.png Serpents Cousins
+-stable: 2905 3517 0 stable.png Serpents Hold Stablery
++dungeon: 1492 1641 0 dungeon.png sewer entrance
+-baker: 3628 2540 2 baker.png The Shakin' Bakery
++Body of Water: 5902 3106 0 Body of Water.png Shallow Sea
+-exit: 5396 129 0 exit.png Shame
++dungeon: 512 1559 0 dungeon.png Shame
+-inn: 554 2178 0 inn.png The Shattered Skull
+-tailor: 650 2180 0 tailor.png Shear Pleasure
+-provisioner: 1318 1328 3 provisioner.png sheep farm
+-jeweler: 2882 723 0 jeweler.png The Shimmering Jewel
+-blacksmith: 981 510 4 blacksmith.png Shining Blades
+-arms: 1895 2653 0 arms.png Shining Path Armory
++shrine: 1106 404 3 shrine.png Shrine of the Virtues
++shrine: 976 510 4 shrine.png Shrine of Wisdom
+-tavern: 3736 1255 0 tavern.png The Silver Bow
+-bowyer: 3054 3369 0 bowyer.png Silver Serpent Bows
+-tailor: 2881 3503 0 tailor.png Silver Serpent Tailors
++town: 595 2263 0 town.png Skara Brae
+-docks: 656 2235 0 docks.png Skara Brae Docks
++moongate: 645 2068 0 moongate.png Skara Brae Moongate
+-point of interest: 565 2213 0 point of interest.png Skara Brae Town Hall
+-tavern: 2030 1350 4 tavern.png Skeleton Swill
+-tailor: 896 610 3 tailor.png Skis-In-Lem
+-butcher: 2438 410 0 butcher.png The Slaughtered Cow
++landmark: 1442 1122 3 landmark.png small lumber camp
++Body of Water: 5789 2430 0 Body of Water.png Sok' Gah
+-shipwright: 2026 2845 0 shipwright.png Sons Of The Sea
+-mage: 1485 1550 0 mage.png The Sorcerer's Delight
+-sorcerers guild: 4684 1412 0 sorcerers guild.png The Sorcerer's Guild
+-mage: 3628 2541 1 mage.png The Sorceror's Guild
+-stable: 1296 1759 0 stable.png Sosarian Steeds
+-docks: 3001 3466 0 docks.png South Dock
+-gate: 2003 2921 0 gate.png South Gate
+-butcher: 5700 3279 0 butcher.png The Southside Butchery
+-stable: 5671 3287 0 stable.png Southside Stables
++dungeon: 1420 910 3 dungeon.png spider dungeon
+-exit: 1787 993 3 exit.png spider dungeon
++dungeon: 1490 879 3 dungeon.png spider dungeon
++Terrain: 1447 964 3 Terrain.png spider wood
+-tailor: 2961 621 0 tailor.png The Spinning Wheel
+-tailor: 2840 885 0 tailor.png The Spinning Wheel
++moongate: 1532 1340 3 moongate.png Spirituality
++shrine: 1526 1340 3 shrine.png Spirituality
++shrine: 1595 2490 0 shrine.png Spirituality
+-stable: 1499 619 3 stable.png the stables
+-stable: 2526 375 0 stable.png Stables
+-stable: 1385 1658 0 stable.png The Stables
+-inn: 3695 2160 0 inn.png The Stag and Lion
++moongate: 5153 1760 1 moongate.png Standard-Moongate
++teleporter: 5173 1589 1 teleporter.png Starroom
++landmark: 466 1584 3 landmark.png statue
++scenic: 1701 291 3 scenic.png statue room
+-point of interest: 2465 522 0 point of interest.png statues
++scenic: 728 475 3 scenic.png stepping stones
+-tailor: 3667 2586 1 tailor.png A Stitch In Time
+-tailor: 3687 2477 2 tailor.png A Stitch in Time Tailor Shop
+-tailor: 3666 2235 0 tailor.png Stitchin' Time
+-jeweler: 5662 3150 0 jeweler.png Strange Rocks
+-arms: 1481 1584 0 arms.png Strength and Steel
+-tanner: 2524 524 0 tanner.png The Stretched Hide
+-bowyer: 564 968 0 bowyer.png The Sturdy Bow
+-provisioner: 578 2227 0 provisioner.png Sundry Supplies
+-shipwright: 592 2277 0 shipwright.png Superior Ships
+-provisioner: 3008 3389 0 provisioner.png Supplies
+-provisioner: 5219 4012 0 provisioner.png The Supply Depot
+-provisioner: 2532 548 0 provisioner.png The Survival Shop
++Terrain: 1124 739 3 Terrain.png Swamp
+-inn: 1493 1619 0 inn.png Sweet Dreams
+-butcher: 3708 2649 1 butcher.png Sweet Meat
++teleporter: 5443 2325 1 teleporter.png T1 to the Southeast of Papua
++teleporter: 6053 2407 1 teleporter.png T2 to the Northwest of Champ 2 "Ice East"
++teleporter: 5996 2367 1 teleporter.png T3 to the East of Delucia
++teleporter: 6080 2340 1 teleporter.png T4 to the South of this Point
++teleporter: 5731 3420 1 teleporter.png T5 to "Ice West"
++teleporter: 5503 3971 1 teleporter.png T6 to "Ice East"
+-tailor: 1600 552 3 tailor.png a tailor
+-tailor: 3774 1265 0 tailor.png Tailor of the Isle
+-tanner: 517 986 0 tanner.png The Tanned Hide
+-tanner: 2860 999 0 tanner.png Tanner's Shop
++teleporter: 4442 1122 0 teleporter.png teleporter park
++teleporter: 1414 3829 0 teleporter.png teleporters
++scenic: 4708 1116 0 scenic.png Telescope
+-guild: 894 673 3 guild.png Ter-An-Eks-Por
+-mage: 840 571 3 mage.png Ter-Ort-Lem
+-inn: 840 707 3 inn.png Ter-Zu
++dungeon: 5426 3120 0 dungeon.png Terathan Keep
+-exit: 5340 1599 0 exit.png Terathan Keep
++Body of Water: 1620 420 3 Body of Water.png Termir Flam "The Lake of Fire"
++Body of Water: 1316 1120 3 Body of Water.png Termir Ilshen "Ilshen's Lake"
++landmark: 580 420 3 landmark.png Terort Skitas "Temple of Knowledge"
++Terrain: 6028 2933 0 Terrain.png Terra Sanctum
+-tinker: 3720 2126 0 tinker.png The Tic-Toc Shop
+-tinker: 1253 588 3 tinker.png a tinker
+-tinker: 2940 3500 0 tinker.png Tinker of the Isle
+-tinkers guild: 1422 1654 0 tinkers guild.png Tinker's Guild
+-tinkers guild: 1848 2680 0 tinkers guild.png Tinker's Guild
+-tinker: 5726 3243 0 tinker.png Tinker's Paradise
++teleporter: 5506 814 1 teleporter.png to Ancient Wyrm's Lair (Destard lvl 3)
++teleporter: 5682 1437 1 teleporter.png to Ancient Wyrm's Lair (Destard lvl 3)
+-exit: 6031 1500 0 exit.png to Britain
++teleporter: 5682 1440 1 teleporter.png to Champ "Despice"
++teleporter: 5265 683 1 teleporter.png to Champ "Despice"
++teleporter: 5360 1540 1 teleporter.png to Champ "Fire"
++teleporter: 5265 669 1 teleporter.png to Champ "Fire"
++teleporter: 5145 973 1 teleporter.png to Champ "Terathan Keep"
++teleporter: 5506 817 1 teleporter.png to Champ "Terathan Keep"
++teleporter: 5140 1773 1 teleporter.png to Champ "Terathan Keep"
+-exit: 6026 1344 0 exit.png to City of the Dead
++teleporter: 5356 1540 1 teleporter.png to Deceit (lvl 4)
++teleporter: 5140 973 1 teleporter.png to Deceit (lvl 4)
+-exit: 6004 1379 0 exit.png to Delucia
+-exit: 6141 1430 0 exit.png to Hoppers Bog
++landmark: 318 789 0 landmark.png to lighthouse
++landmark: 1958 2068 0 landmark.png to Lost Lands
++landmark: 5126 3144 0 landmark.png to Marble Building
++teleporter: 5199 71 0 teleporter.png to park
++teleporter: 1516 879 3 teleporter.png to Reg Volom (the island)
++teleporter: 1363 1105 3 teleporter.png to spider dungeon
+-exit: 5191 152 0 exit.png to surface
++teleporter: 5217 18 0 teleporter.png to town
+-exit: 5899 1410 0 exit.png to Trinsic forest
++Body of Water: 5771 4050 0 Body of Water.png Tortoise Lagoon
++landmark: 1675 1074 3 landmark.png tower
+-gate: 2281 1210 0 gate.png town gate
+-point of interest: 1962 1339 4 point of interest.png training dumm
+-point of interest: 3732 2583 2 point of interest.png Training Dummies
+-point of interest: 1979 1307 4 point of interest.png training dummy
+-point of interest: 1972 2698 0 point of interest.png Training Ground
++landmark: 1256 865 0 landmark.png Training Tower
+-inn: 1844 2735 0 inn.png The Traveler's Inn
++scenic: 1038 701 3 scenic.png Tribal Berry Orchard
+-mage: 5731 3183 0 mage.png Tricks of the Trade
++town: 1879 2766 0 town.png Trinsic
+-butcher: 1991 2887 0 butcher.png The Trinsic Cut
+-docks: 2072 2856 0 docks.png Trinsic Docks
+-tanner: 1991 2867 0 tanner.png Trinsic Fine Skins
+-healer: 1911 2805 0 healer.png Trinsic Healer
+-point of interest: 1895 2719 0 point of interest.png Trinsic Meeting Hall
++moongate: 1829 2949 0 moongate.png Trinsic Moongate
+-bank: 1897 2684 0 bank.png Trinsic Royal Bank
+-stable: 1822 2739 0 stable.png Trinsic Stablery
+-warriors guild: 2019 2748 0 warriors guild.png Trinsic Training Hall
+-point of interest: 2082 574 4 point of interest.png tunnel
+-point of interest: 2157 456 4 point of interest.png tunnel
+-point of interest: 1811 359 4 point of interest.png tunnel
+-point of interest: 1790 475 4 point of interest.png tunnel
+-point of interest: 1628 432 4 point of interest.png tunnel
+-point of interest: 1658 304 4 point of interest.png tunnel
+-point of interest: 1071 247 4 point of interest.png tunnel
+-point of interest: 1095 197 4 point of interest.png tunnel
+-point of interest: 1195 511 4 point of interest.png tunnel
+-inn: 1566 1049 3 inn.png Twin Oaks Tavern
+-baker: 2998 760 0 baker.png The Twisted Oven
++town: 2020 1292 4 town.png Umbra
++moongate: 1997 1386 4 moongate.png Umbra
+-bank: 2048 1345 4 bank.png Umbra Bank
++ruins: 856 463 3 ruins.png undead camp
++ruins: 360 1140 3 ruins.png undead fort
+-tavern: 1547 1768 0 tavern.png The Unicorn's Horn
++landmark: 3610 2585 2 landmark.png Uzeraan's Mansion
+-point of interest: 3595 2588 2 point of interest.png Uzeraan, Keeper of Quests
++moongate: 528 216 3 moongate.png Valor
++shrine: 529 212 3 shrine.png Valor
++shrine: 2491 3933 0 shrine.png Valor
++scenic: 1211 763 3 scenic.png Vegetable Patch
++landmark: 836 641 3 landmark.png Ver Lor Reg
++town: 2884 839 0 town.png Vesper
++graveyard: 2753 867 0 graveyard.png Vesper Cemetery
+-customs: 2944 934 0 customs.png Vesper Customs
+-docks: 3034 827 0 docks.png Vesper Docks
+-point of interest: 2743 980 0 point of interest.png Vesper Guard Tower
+-point of interest: 2923 981 0 point of interest.png Vesper Museum
+-inn: 2962 885 0 inn.png Vesper Youth Hostel
+-carpenter: 2627 2100 0 carpenter.png Violente Woodworks
+-bridge: 1520 1628 0 bridge.png Virtue's Pass
+-point of interest: 948 492 3 point of interest.png Volcano
++scenic: 1651 2890 0 scenic.png Volcano Tunnel
+-inn: 2039 1317 4 inn.png Wailing Banshee Inn
+-carpenter: 2066 1288 4 carpenter.png Warped Woodworks
+-arms: 2533 576 0 arms.png Warrior's Battle Gear
+-blacksmith: 1419 3859 0 blacksmith.png Warrior's Bounty
+-arms: 2835 805 0 arms.png Warrior's Companion
+-arms: 2217 1170 0 arms.png The Warrior's Supplies
+-warriors guild: 3058 3400 0 warriors guild.png The Warriors' Guild
+-warriors guild: 1341 1733 0 warriors guild.png The Warriors' Guild
+-gate: 5313 3970 0 gate.png Watch Gates
+-point of interest: 1619 1760 0 point of interest.png The Watch Tower
+-point of interest: 5265 3939 0 point of interest.png Watch Tower and Keep
++landmark: 917 993 3 landmark.png watchpost
+-point of interest: 2212 1115 0 point of interest.png watchtower
++scenic: 1712 3005 0 scenic.png waterfall
+-inn: 1585 1591 0 inn.png The Wayfarer's Inn
+-weapons guild: 3731 2578 2 weapons guild.png Weaponsmith
+-gate: 1831 2779 0 gate.png West Trinsic Gate
++dungeon: 1361 890 0 dungeon.png Wind
++town: 5252 104 0 town.png Wind
+-mage: 5148 60 0 mage.png Wind Alchemy
+-bank: 5346 74 0 bank.png Wind Bank
+-healer: 5263 129 0 healer.png Wind Healer
+-tailor: 5203 86 0 tailor.png Windy Clothes
+-inn: 5218 175 0 inn.png Windy Inn
++dungeon: 652 1301 3 dungeon.png wisp dungeon
++dungeon: 2042 226 0 dungeon.png Wrong
+-exit: 5825 632 0 exit.png Wrong
++Terrain: 5604 2742 0 Terrain.png Y'Nah Teb
+-bank: 5275 3977 0 bank.png Ye Olde Eleventh Bank
+-bank: 5669 3131 0 bank.png Ye Olde Loan and Savings
+-point of interest: 618 886 0 point of interest.png Ye Olde Winery
++town: 504 942 0 town.png Yew
++graveyard: 722 1117 0 graveyard.png Yew Cemetery
+-point of interest: 553 826 0 point of interest.png Yew Mill
++moongate: 771 754 0 moongate.png Yew Moongate
+-butcher: 529 1008 0 butcher.png Yew's Finest Cuts
+-blacksmith: 792 665 3 blacksmith.png Zhel-In-Lem
+-blacksmith: 5225 4000 0 blacksmith.png Zoot's Hammer

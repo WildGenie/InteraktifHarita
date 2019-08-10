@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.IO;
+using System.Text.RegularExpressions;
 using System.Windows.Forms;
 using Cyotek.Windows.Forms;
 using Harita.Properties;
@@ -12,6 +13,9 @@ namespace Harita
 {
   public partial class Form1 : Form
   {
+    private readonly Dictionary<string, Image> IconList = new Dictionary<string, Image>();
+
+
     private Bilgilendirme bilgiForm;
     private List<ImagePoint> landmarks;
     private Bitmap markerImage;
@@ -20,7 +24,6 @@ namespace Harita
     {
       InitializeComponent();
     }
-
 
     private IDictionary<string, Image> ImageCache { get; set; }
 
@@ -33,6 +36,22 @@ namespace Harita
     private bool ResetZoomOnUpdate { get; set; }
 
     private int VirtualZoom { get; set; }
+
+    private void ParseCommandFile()
+    {
+      var veriler = File.ReadAllText(GetMapFileName("common", ".map"));
+      var matches = Regex.Matches(veriler, @"^[+-]([^:]+): (\d+) (\d+) (\d+) ([^.]*\.png) (.*)$",
+        RegexOptions.Multiline);
+      foreach (Match match in matches)
+      {
+        int x, y, flag;
+        if (int.TryParse(match.Groups[2].Value, out x) && int.TryParse(match.Groups[3].Value, out y) &&
+            int.TryParse(match.Groups[4].Value, out flag))
+          if (flag < 3)
+            AddLandmark(match.Groups[6].Value, new Point(x, y), match.Groups[1].Value,
+              match.Groups[5].Value); //$"{rnd.Next(1, 80)}.png"
+      }
+    }
 
     private int FindNearestLayer(int zoom)
     {
@@ -110,11 +129,28 @@ namespace Harita
       }
     }
 
-    private void AddLandmark(string name, Point point, string type)
+    private void AddLandmark(string name, Point point, string type, string image)
     {
       Debug.Print("Added landmark: {0}", point);
+      var ext = Path.GetExtension(image);
+      var fileNameWithoutExtension = Path.GetFileNameWithoutExtension(image);
+      var fileName = GetMapFileName(fileNameWithoutExtension, ext);
+      Image fImage;
+      if (IconList.ContainsKey(image))
+      {
+        fImage = IconList[image];
+      }
+      else
+      {
+        fImage = new Bitmap(fileName);
+        IconList.Add(image, fImage);
+        //using (StreamWriter writetext = new StreamWriter("rename.cmd", true))
+        //{
+        //  writetext.WriteLine($"ren {IconList.Count}.png \"{image}\"");
+        //}
+      }
 
-      landmarks.Add(new ImagePoint(name, new PointF(point.X, point.Y), type));
+      landmarks.Add(new ImagePoint(name, new PointF(point.X, point.Y), type, fImage));
     }
 
     protected override void OnLoad(EventArgs e)
@@ -124,9 +160,10 @@ namespace Harita
       markerImage = Resources.MapMarker;
 
       landmarks = new List<ImagePoint>();
-      AddLandmark("Britain", new Point(182, 209), "Şehir");
-      AddLandmark("Trinsic", new Point(234, 342), "Şehir");
-      AddLandmark("Minoc", new Point(309, 62), "Şehir");
+      ParseCommandFile();
+      //AddLandmark("Britain", new Point(182, 209), "Şehir");
+      //AddLandmark("Trinsic", new Point(234, 342), "Şehir");
+      //AddLandmark("Minoc", new Point(309, 62), "Şehir");
 
 
       //this.imagePoints = new List<ImagePoint>();
@@ -139,10 +176,10 @@ namespace Harita
       LayerData = new List<MapLayerData>();
 
       // add some map layers for the different zoom levels
-      AddLayer("MAP25166902-8", int.MinValue, 2, 1);
-      AddLayer("MAP25166902-4", 2, 4, 2);
-      AddLayer("MAP25166902-2", 4, 8, 4);
-      AddLayer("MAP25166902-1", 8, int.MaxValue, 8);
+      AddLayer("MAP25166902-8", int.MinValue, 2, 8);
+      AddLayer("MAP25166902-4", 2, 4, 4);
+      AddLayer("MAP25166902-2", 4, 8, 2);
+      AddLayer("MAP25166902-1", 8, int.MaxValue, 1);
 
       // load the lowest detail map
       imageBox.Image = GetMapImage("MAP25166902-8");
@@ -196,12 +233,12 @@ namespace Harita
       return result;
     }
 
-    private string GetMapFileName(string name)
+    private string GetMapFileName(string name, string ext = ".bmp")
     {
       return Path.GetFullPath(
         Path.Combine(
           Path.Combine(AppDomain.CurrentDomain.BaseDirectory, @"..\..\maps"),
-          Path.ChangeExtension(name, ".bmp")));
+          Path.ChangeExtension(name, ext)));
     }
 
     private void ImageBox_Paint(object sender, PaintEventArgs e)
@@ -236,8 +273,8 @@ namespace Harita
         {
           var div = LayerData[findNearestLayer].ZoomLevel;
           var yeniLandmarkLocation = yeniLandmark.location;
-          yeniLandmarkLocation.X *= div;
-          yeniLandmarkLocation.Y *= div;
+          yeniLandmarkLocation.X /= div;
+          yeniLandmarkLocation.Y /= div;
 
           // Work out the location of the marker graphic according to the current zoom level and scroll offset
           location = imageBox.GetOffsetPoint(yeniLandmarkLocation);
@@ -334,7 +371,7 @@ namespace Harita
       var landmark = Neresi(realPoint);
       if (landmark != null)
       {
-        BilgiGoster(landmark.LocationPoint, landmark.Isim, landmark.Tur, Resources.MapMarker);
+        BilgiGoster(landmark.LocationPoint, landmark.Isim, landmark.Tur, landmark.Resim);
       }
       else
       {
@@ -354,8 +391,8 @@ namespace Harita
           var p = new Point((int) landmark.location.X, (int) landmark.location.Y);
 
           var div = LayerData[findNearestLayer].ZoomLevel;
-          p.X *= div;
-          p.Y *= div;
+          p.X /= div;
+          p.Y /= div;
 
           if ((p.X - location.X) * (p.X - location.X) + (p.Y - location.Y) * (p.Y - location.Y) <=
               500)

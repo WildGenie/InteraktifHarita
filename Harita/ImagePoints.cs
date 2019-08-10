@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using Cyotek.Windows.Forms;
+using Harita.Properties;
 
 namespace Harita
 {
@@ -64,12 +65,13 @@ namespace Harita
       Tur = tur;
     }
 
-    public ImagePoint(string name, PointF l, string tur)
+    public ImagePoint(string name, PointF l, string tur, Image image)
     {
       location = l;
       Isim = name;
       Tur = tur;
       label = name;
+      Resim = image ?? Resources.MapMarker;
     }
 
     public ImagePoint(Pen p, PointF l)
